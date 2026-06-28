@@ -113,6 +113,29 @@ h2 {
   gap: 10px;
 }
 
+.dashboard-link {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 0 14px;
+  color: var(--control-bg);
+  background: var(--accent);
+  box-shadow: var(--shadow);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.dashboard-link:hover {
+  background: var(--accent-dark);
+}
+
+.dashboard-link:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.3);
+  outline-offset: 2px;
+}
+
 .theme-toggle {
   display: inline-flex;
   min-height: 42px;
